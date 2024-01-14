@@ -60,7 +60,7 @@ div {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-bottom:50px;
+    margin-bottom: 20px;
 }
 
 .header-content {
@@ -101,7 +101,7 @@ div {
 
 .header-button-1 {
     border-radius: 48px;
-    background-color: #FF42A5 ;
+    background-color: #FF42A5;
     border: none;
     padding: 10px 25px;
     font-size: 16px;
@@ -122,16 +122,87 @@ div {
     border: none;
 }
 
-.header-button-1:hover{
+.header-button-1:hover {
     background-color: green;
     cursor: pointer;
 }
 
-.header-button-2:hover{
+.header-button-2:hover {
     background-color: green;
     cursor: pointer;
 }
 
-.header-images{
+.header-images {
     padding-right: 120px;
+}
+
+
+/* We are gamer part style */
+
+.we-are-gamer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.we-are-gamer-img img {
+    padding-left: 80px;
+}
+
+.we-are-gamer-content {
+    display: block;
+    padding-right: 150px;
+    padding-top: 110px;
+    text-align: right;
+}
+
+.we-are-gamer-content h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.we-are-gamer p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+
+}
+
+.we-are-gamer button {
+    border-radius: 48px;
+    background-color: #FF42A5;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.we-are-gamer button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.we-are-gamer h4 {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.we-are-gamer h2 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    margin-left: -50pc;
 }

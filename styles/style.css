@@ -206,3 +206,69 @@ div {
     line-height: 45px;
     margin-left: -50pc;
 }
+
+
+/* Online games funny videos styles */
+
+.online-games-funny-videos {
+    margin: 60px 240px;
+    padding-left: 50px;
+}
+
+.online-games-funny-videos-container {}
+
+.online-games-funny-videos h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-videos-words {
+    color: #F948B2;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.online-games-funny-videos p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+
+.online-games-funny-videos-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.funny-videos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.funny-videos img {
+    height: 300px;
+    width: 250px;
+}
+
+.funny-videos p {
+    margin-top: -35px;
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.three{
+    padding-bottom: 20px;
+}
+
+.three-p{
+   position: relative;
+   bottom: 20px;
+}

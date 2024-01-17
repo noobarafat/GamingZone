@@ -21,6 +21,12 @@ nav {
     gap: 10px;
     /* padding-top: 20px; */
     padding-left: 50px;
+    align-items: center;
+}
+
+.nav-follow-us {
+    display: flex;
+    align-items: center;
 }
 
 .company-name p {
@@ -33,8 +39,7 @@ nav {
     color: #FF42A5;
 }
 
-.company-contact ul,
-div {
+.company-contact ul {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -66,6 +71,7 @@ div {
 .header-content {
     display: block;
     padding-left: 200px;
+    padding-top: 100px;
 }
 
 .header-content h2 {
@@ -211,7 +217,7 @@ div {
 /* Online games funny videos styles */
 
 .online-games-funny-videos {
-    margin: 60px 240px;
+    margin: 60px 200px;
     padding-left: 50px;
 }
 
@@ -242,22 +248,35 @@ div {
 
 .online-games-funny-videos-container {
     display: flex;
+    gap: 20px;
     justify-content: space-around;
 }
 
 .funny-videos {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
+.funny-videos:first-child {
+    margin-right: -105px;
+    padding-right: 15px;
+}
+
+.funny-videos:first-child p {
+    width: 80%;
+}
+
+.funny-videos:last-child p {
+    width: 85%;
+}
 
 .funny-videos img {
-    height: 300px;
+    /* height: 300px; */
     width: 250px;
 }
 
 .funny-videos p {
-    margin-top: -35px;
     color: #534C64;
     font-size: 16px;
     font-weight: 500;
@@ -268,10 +287,6 @@ div {
     padding-bottom: 20px;
 }
 
-.three-p {
-    position: relative;
-    bottom: 20px;
-}
 
 
 /* Play instantly section styles */
@@ -288,12 +303,9 @@ div {
 }
 
 .play-instantly-content {
-    display: block;
-    /* padding-left: 100px; */
     padding-right: 150px;
-    position: relative;
-    bottom: 200px;
     text-align: right;
+    padding-top: 100px;
 }
 
 .play-instantly-content h1 {
@@ -320,9 +332,7 @@ div {
     line-height: 30px;
 }
 
-.play-instantly-img {
-    display: block;
-}
+
 
 .img-2 {
     position: relative;
@@ -333,16 +343,13 @@ div {
 /* Play games online section styles */
 
 .play-games-online {
-    margin: -190px 60px 50px 140px;
+    margin: -190px 60px 0px 140px;
 }
 
 .play-games-online-container {
     display: flex;
 }
 
-.play-games-online-img {
-    display: block;
-}
 
 .play-games-online-img-2 {
     position: relative;
@@ -353,8 +360,8 @@ div {
 .play-games-online-content {
     display: block;
     padding-left: 100px;
-    position: relative;
-    bottom: 160px;
+    padding-top: 100px;
+
 }
 
 .play-games-online-content h1 {
@@ -377,4 +384,50 @@ div {
     font-weight: 400;
     line-height: 30px;
     padding-top: 15px;
+}
+
+/* carrer part styles */
+
+.carrer {
+    margin: -100px 0 100px 0;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%), url('../images/Group\ 14.png');
+    color: white;
+}
+
+.carrer .carrer-header {
+    width: 40%;
+    padding: 20px 0px 0px 50px;
+
+}
+
+.carrer-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.carrer-header p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.carrer-opportunity-container {
+    display: flex;
+    gap: 100px;
+    padding-top: 60px;
+    justify-content: space-evenly;
+
+
+}
+
+.carrer-opportunity-name,
+.carrer-opportunity-place {
+    padding-left: 100px;
+}
+
+
+.carrer-opportunity-grab-photo img {
+    width: 1000px;
+    margin-top: -260px;
 }
